@@ -1,8 +1,12 @@
 def student_picker(batch,exclusion)
+  """
+  Method to pick from the batch a student who has to do the livecode
+  Except if in the exception array
+  """
   exclusion.each do |excluded|
-    batch.delete(excluded)
+    batch.delete(excluded) # Delete from the batch array the students who dont want
   end
-  return batch.sample
+  return batch.sample # Return a random person from the array
 end
 
 
