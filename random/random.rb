@@ -6,9 +6,6 @@ def student_picker(batch,exclusion)
 end
 
 
-exclusion = ['Todd','Math']
-batchy = ['Todd','Horse','Apple','Math']
+exclusion = ['Matthieu']
+batchy = ['Matthieu','Yauheni','Abdollah','Paula','George','Whalton','Jamie','Onur','Aristoteles','Bassem','Marianna','Gina','Dmitri']
 puts "The poor student who has to do the livecode is #{student_picker(batchy,exclusion)}"
-p batchy
-batchy = ['Todd','Horse','Apple','Math']
-p batchy
