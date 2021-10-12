@@ -18,6 +18,9 @@ sentence = gets.chomp
 
 puts acronymize(sentence)
 
+'''
+To explain
+'''
 describe "#acronymize" do
   it "returns an empty string when passed an empty string" do
     actual = acronymize("")
