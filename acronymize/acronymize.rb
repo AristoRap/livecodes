@@ -4,7 +4,7 @@ def acronymize(sentence)
   example: 'What the fuck' becomes 'WTF'
   """
   words = sentence.split(" ") # Split the sentence into an array of words
-  acromym = []
+  acronym = []
   words.each do |word|
     word = word.capitalize # capitalize every word
     letter = word[0] # Take the first letter
