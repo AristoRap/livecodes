@@ -11,5 +11,6 @@ end
 
 
 exclusion = ['Matthieu']
-batchy = ['Matthieu','Yauheni','Abdollah','Paula','George','Whalton','Jamie','Onur','Aristoteles','Bassem','Marianna','Gina','Dmitri']
+batchy = ['George']
+#batchy = ['Matthieu','Yauheni','Abdollah','Paula','George','Whalton','Jamie','Onur','Aristoteles','Bassem','Marianna','Gina','Dmitri']
 puts "The poor student who has to do the livecode is #{student_picker(batchy,exclusion)}"
